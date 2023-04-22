@@ -101,8 +101,6 @@ public class DatabaseQueryService {
         return result;
     }
 
-    //find_youngest_eldest_workers.sql
-
     public static List<YoungestEldestWorkers> findYoungestEldestWorkers() {
         List<YoungestEldestWorkers> result = new ArrayList<>();
 
